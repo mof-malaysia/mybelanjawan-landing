@@ -6,7 +6,7 @@ export default function Page() {
   const sites = [
     {
       title: "Aplikasi MyBelanjawan",
-      description: "Aplikasi utama untuk merancang dan memantau belanjawan tahunan bagi setiap Maksud Perbelanjaan",
+      description: "Aplikasi utama untuk merancang dan memantau belanjawan tahunan di peringkat Persekutuan",
       href: "https://app.mybelanjawan.dev",
       icon: Laptop,
       imgSrc: "/ss1.webp"
@@ -27,14 +27,14 @@ export default function Page() {
     },
     {
       title: "Status Sistem",
-      description: "Data mengenai status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden",
+      description: "Status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden bagi 90 hari terkini",
       href: "https://status.mybelanjawan.dev",
       icon: BarChart,
       imgSrc: "/ss4.webp"
     },
     {
       title: "Portal Latihan",
-      description: "Jadual dan aturcara ToT MyBelanjawan, serta pautan pantas untuk muat turun dokumen latihan",
+      description: "Jadual dan aturcara ToT MyBelanjawan, serta pautan untuk muat turun dokumen latihan",
       href: "https://training.mybelanjawan.dev",
       icon: GraduationCap,
       imgSrc: "/ss5.webp"
@@ -66,6 +66,8 @@ export default function Page() {
               href={site.href}
               className="block md:max-w-[500px] p-2 h-full cursor-pointer no-underline"
               aria-label={`Link to ${site.title}`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="h-full overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
                 {site.imgSrc ? (
