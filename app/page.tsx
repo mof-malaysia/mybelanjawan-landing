@@ -61,30 +61,31 @@ export default function Page() {
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {sites.map((site) => (
-            <div key={site.href} className="md:max-w-[500px] p-2">
+            <Link 
+              key={site.href}
+              href={site.href}
+              className="block md:max-w-[500px] p-2 h-full cursor-pointer no-underline"
+              aria-label={`Link to ${site.title}`}
+            >
               <div className="h-full overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
-                <Link href={site.href} aria-label={`Link to ${site.title}`}>
-                  {site.imgSrc ? (
-                    <Image
-                      alt={site.title}
-                      src={site.imgSrc}
-                      className="object-cover object-center w-full"
-                      width={544}
-                      height={306}
-                    />
-                  ) : (
-                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 aspect-video flex items-center justify-center">
-                      <div className="p-4 rounded-2xl bg-white/80">
-                        <site.icon className="h-8 w-8 text-blue-600" />
-                      </div>
+                {site.imgSrc ? (
+                  <Image
+                    alt={site.title}
+                    src={site.imgSrc}
+                    className="object-cover object-center w-full"
+                    width={544}
+                    height={306}
+                  />
+                ) : (
+                  <div className="bg-gradient-to-br from-blue-50 to-indigo-50 aspect-video flex items-center justify-center">
+                    <div className="p-4 rounded-2xl bg-white/80">
+                      <site.icon className="h-8 w-8 text-blue-600" />
                     </div>
-                  )}
-                </Link>
+                  </div>
+                )}
                 <div className="p-4">
                   <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
-                    <Link href={site.href} aria-label={`Link to ${site.title}`}>
-                      {site.title}
-                    </Link>
+                    {site.title}
                   </h2>
                   <p className="prose mb-3 max-w-none text-gray-500">{site.description}</p>
                   <p className="text-sm font-mono text-gray-400">
@@ -92,7 +93,7 @@ export default function Page() {
                   </p>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </main>
