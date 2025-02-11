@@ -35,7 +35,7 @@ export default function Page() {
     {
       title: "Portal Latihan",
       description: "Jadual dan aturcara ToT MyBelanjawan, serta pautan pantas untuk muat turun dokumen latihan",
-      href: "https://sites.google.com/treasury.gov.my/totmybelanjawan",
+      href: "https://training.mybelanjawan.dev",
       icon: GraduationCap,
       imgSrc: "/ss5.webp"
     },
