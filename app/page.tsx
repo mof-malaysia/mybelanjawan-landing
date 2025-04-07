@@ -40,7 +40,7 @@ export default function Page() {
       imgSrc: "/ss5.webp"
     },
     {
-      title: "Buku Bajet 2025",
+      title: "Buku Belanjawan 2025",
       description: "Salinan digital rasmi bagi Belanjawan 2025 yang telah dibentangkan dan diluluskan di Parlimen",
       href: "https://belanjawan.mof.gov.my/ms/perbelanjaan",
       icon: GraduationCap,
