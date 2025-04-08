@@ -40,12 +40,19 @@ export default function Page() {
       imgSrc: "/ss5.webp"
     },
     {
+      title: "Video Panduan Pengguna",
+      description: "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
+      href: "https://docs.mybelanjawan.dev/docs/video-panduan-pengguna",
+      icon: GraduationCap,
+      imgSrc: "/ss-video.webp"
+    },
+    {
       title: "Buku Belanjawan 2025",
       description: "Salinan digital rasmi bagi Belanjawan 2025 yang telah dibentangkan dan diluluskan di Parlimen",
       href: "https://belanjawan.mof.gov.my/ms/perbelanjaan",
       icon: GraduationCap,
       imgSrc: "/ss6.webp"
-    },
+    }
   ]
 
   return (
