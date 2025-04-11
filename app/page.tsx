@@ -9,35 +9,14 @@ export default function Page() {
       description: "Aplikasi utama untuk merancang dan memantau belanjawan tahunan di peringkat Persekutuan",
       href: "https://app.mybelanjawan.dev",
       icon: Laptop,
-      imgSrc: "/ss1.webp"
+      imgSrc: "/ss-aplikasi.webp"
     },
     {
       title: "Dokumentasi Sistem",
       description: "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
       href: "https://docs.mybelanjawan.dev",
       icon: Book,
-      imgSrc: "/ss2.webp"
-    },
-    {
-      title: "Helpdesk",
-      description: "Wujudkan tiket untuk tindakan pasukan kami, mengikut tahap kritikal tiket anda",
-      href: "https://helpdesk.mybelanjawan.dev",
-      icon: HelpCircle,
-      imgSrc: "/ss3.webp"
-    },
-    {
-      title: "Status Sistem",
-      description: "Status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden bagi 90 hari terkini",
-      href: "https://status.mybelanjawan.dev",
-      icon: BarChart,
-      imgSrc: "/ss4.webp"
-    },
-    {
-      title: "Portal Latihan",
-      description: "Jadual dan aturcara ToT MyBelanjawan, serta pautan untuk muat turun dokumen latihan",
-      href: "https://training.mybelanjawan.dev",
-      icon: GraduationCap,
-      imgSrc: "/ss5.webp"
+      imgSrc: "/ss-dokumentasi.webp"
     },
     {
       title: "Video Panduan Pengguna",
@@ -47,11 +26,32 @@ export default function Page() {
       imgSrc: "/ss-video.webp"
     },
     {
+      title: "Helpdesk",
+      description: "Wujudkan tiket untuk tindakan pasukan kami, mengikut tahap kritikal tiket anda",
+      href: "https://helpdesk.mybelanjawan.dev",
+      icon: HelpCircle,
+      imgSrc: "/ss-helpdesk.webp"
+    },
+    {
+      title: "Status Sistem",
+      description: "Status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden bagi 90 hari terkini",
+      href: "https://status.mybelanjawan.dev",
+      icon: BarChart,
+      imgSrc: "/ss-status.webp"
+    },
+    {
+      title: "Portal Latihan",
+      description: "Jadual dan aturcara ToT MyBelanjawan, serta pautan untuk muat turun dokumen latihan",
+      href: "https://training.mybelanjawan.dev",
+      icon: GraduationCap,
+      imgSrc: "/ss-portal-latihan.webp"
+    },
+    {
       title: "Buku Belanjawan 2025",
       description: "Salinan digital rasmi bagi Belanjawan 2025 yang telah dibentangkan dan diluluskan di Parlimen",
       href: "https://belanjawan.mof.gov.my/ms/perbelanjaan",
       icon: GraduationCap,
-      imgSrc: "/ss6.webp"
+      imgSrc: "/ss-buku-belanjawan.webp"
     }
   ]
 
