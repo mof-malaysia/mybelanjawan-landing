@@ -67,11 +67,13 @@ export default function Page() {
           </p>
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {sites.map((site) => (
+          {sites.map((site, index) => (
             <Link 
               key={site.href}
               href={site.href}
-              className="block md:max-w-[500px] p-2 h-full cursor-pointer no-underline"
+              className={`block md:max-w-[500px] p-2 h-full cursor-pointer no-underline ${
+                index === sites.length - 1 && sites.length % 3 === 1 ? 'lg:col-start-2' : ''
+              }`}
               aria-label={`Link to ${site.title}`}
               target="_blank"
               rel="noopener noreferrer"
