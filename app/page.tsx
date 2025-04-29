@@ -57,7 +57,7 @@ export default function Page() {
 
   return (
     <div className="min-h-dvh bg-white font-sans">
-      <main className="container mx-auto px-4 pt-8 pb-16">
+      <main className="container mx-auto px-4 pt-6 pb-16">
         <div className="mb-10 text-center">
           <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-gray-900 mb-4">
             Selamat Datang ke <br /> Sistem Pengurusan Belanjawan Negara

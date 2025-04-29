@@ -54,8 +54,8 @@ children,
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <Header />
-          <MaintenanceBanner />
           <div className="container">
+            <MaintenanceBanner />
             {children}
           </div>
           <Footer title="Kementerian Kewangan Malaysia">
