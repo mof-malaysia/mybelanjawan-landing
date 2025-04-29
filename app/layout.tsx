@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Header from '@/components/ui/header';
 import Footer from "@/components/ui/footer";
 import At from "@/components/ui/at";
+import MaintenanceBanner from "@/components/ui/maintenance-banner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,6 +54,7 @@ children,
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <Header />
+          <MaintenanceBanner />
           <div className="container">
             {children}
           </div>
