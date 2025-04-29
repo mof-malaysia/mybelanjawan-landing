@@ -59,10 +59,7 @@ export default function Page() {
     <div className="min-h-dvh bg-white font-sans">
       <main className="container mx-auto px-4 py-16">
         <div className="mb-12 text-center">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-gray-900 mb-4">
-            MyBelanjawan
-          </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-2xl text-gray-600 max-w-2xl mx-auto">
             Selamat datang ke sistem pengurusan belanjawan negara.
           </p>
         </div>
