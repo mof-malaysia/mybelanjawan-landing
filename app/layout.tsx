@@ -39,7 +39,7 @@ const footerLinks = [{
 }];
 
 export default function RootLayout({
-  children,
+children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -53,7 +53,7 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <Header />
-          <div className="container mt-12">
+          <div className="container">
             {children}
           </div>
           <Footer title="Kementerian Kewangan Malaysia">
