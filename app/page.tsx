@@ -58,13 +58,10 @@ export default function Page() {
   return (
     <div className="min-h-dvh bg-white font-sans">
       <main className="container mx-auto px-4 py-16">
-        <div className="mb-12 text-center">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-gray-900 mb-4">
-            MyBelanjawan
+        <div className="mt-10 mb-10 text-center">
+          <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-gray-900 mb-4">
+            Selamat Datang ke <br /> Sistem Pengurusan Belanjawan Negara
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Selamat datang ke sistem pengurusan belanjawan negara.
-          </p>
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {sites.map((site, index) => (
