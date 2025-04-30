@@ -1,11 +1,23 @@
 import Image from "next/image";
 
 import { FunctionComponent, ReactNode } from "react";
+import At from "./at";
 
 interface FooterProps {
   title?: ReactNode;
   children?: ReactNode;
 }
+
+const links = [{
+  title: "Penafian",
+  href: "/penafian",
+}, {
+  title: "Dasar Privasi",
+  href: "/dasar-privasi",
+}, {
+  title: "Polisi Keselamatan",
+  href: "/polisi-keselamatan",
+}];
 
 const Footer: FunctionComponent<FooterProps> = ({ title, children }) => {
   return (
@@ -24,8 +36,23 @@ const Footer: FunctionComponent<FooterProps> = ({ title, children }) => {
           <div>
             <div className="mb-2 font-bold uppercase">{title}</div>
             <p className="text-dim text-sm">
-              © {new Date().getFullYear()} MyBelanjawan
+              HAK CIPTA TERPELIHARA © {new Date().getFullYear()} KEMENTERIAN KEWANGAN
             </p>
+            <div className="flex pt-1">
+              {links.map((link, idx) => (
+                <>
+                  <At
+                    href={link.href}
+                    variant="reset"
+                    className="text-dim text-sm font-normal hover:underline w-fit"
+                    external={false}
+                  >
+                    <span>{link.title}</span>
+                    {idx < links.length - 1 && <span className="px-2">|</span>}
+                  </At>
+                </>
+              ))}
+            </div>
           </div>
         </div>
         <div className="flex gap-6 text-sm">{children}</div>
