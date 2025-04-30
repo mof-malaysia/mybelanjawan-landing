@@ -14,7 +14,7 @@ const MaintenanceBanner: React.FC = () => {
             <span className="text-gray-500">Tarikh/Masa Mula:</span> 29 April 2025, jam 4.30 petang
           </div>
           <div className="bg-white border border-gray-300 rounded-lg shadow-md py-2 px-4 w-fit">
-            <span className="text-gray-500">Tarikh/Masa Tamat:</span> 30 April 2025, jam 8.00 malam
+            <span className="text-gray-500">Tarikh/Masa Tamat:</span> 30 April 2025, jam 11.59 malam
           </div>
         </div>
       </div>

@@ -60,7 +60,7 @@ export default function Page() {
       <main className="container mx-auto px-4 pt-28 pb-16">
         <div className="mb-10 text-center">
           <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl text-gray-900 mb-4">
-            Selamat Datang ke <br /> Sistem Pengurusan Belanjawan Negara
+            Selamat Datang ke Sistem MyBelanjawan
           </h1>
         </div>
         
