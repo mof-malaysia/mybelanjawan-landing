@@ -7,21 +7,21 @@ export default function Page() {
     {
       title: "Aplikasi MyBelanjawan",
       description: "Aplikasi utama untuk merancang dan memantau belanjawan tahunan di peringkat Persekutuan",
-      href: "https://app.mybelanjawan.dev",
+      href: "https://app.mybelanjawan.gov.my",
       icon: Laptop,
       imgSrc: "/ss-aplikasi.webp"
     },
     {
       title: "Dokumentasi Sistem",
       description: "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
-      href: "https://docs.mybelanjawan.dev",
+      href: "https://docs.mybelanjawan.gov.my",
       icon: Book,
       imgSrc: "/ss-dokumentasi.webp"
     },
     {
       title: "Video Panduan Pengguna",
       description: "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
-      href: "https://docs.mybelanjawan.dev/docs/video-panduan-pengguna",
+      href: "https://docs.mybelanjawan.gov.my/docs/video-panduan-pengguna",
       icon: GraduationCap,
       imgSrc: "/ss-video.webp"
     },
