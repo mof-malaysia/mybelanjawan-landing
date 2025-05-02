@@ -28,7 +28,7 @@ export default function Page() {
     {
       title: "Helpdesk",
       description: "Wujudkan tiket untuk tindakan pasukan kami, mengikut tahap kritikal tiket anda",
-      href: "https://helpdesk.mybelanjawan.dev",
+      href: "https://helpdesk.mybelanjawan.gov.my",
       icon: HelpCircle,
       imgSrc: "/ss-helpdesk.webp"
     },
