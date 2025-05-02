@@ -23,16 +23,16 @@ export const metadata: Metadata = {
 
 const footerLinks = [{
   title: "Laman Utama Sistem MyBelanjawan",
-  href: "https://mybelanjawan.dev",
+  href: "https://mybelanjawan.gov.my",
 }, {
   title: "Dokumentasi Sistem",
-  href: "https://docs.mybelanjawan.dev",
+  href: "https://docs.mybelanjawan.gov.my",
 }, {
   title: "Video Panduan Pengguna",
-  href: "https://docs.mybelanjawan.dev/docs/video-panduan-pengguna",
+  href: "https://docs.mybelanjawan.gov.my/docs/video-panduan-pengguna",
 }, {
   title: "Helpdesk",
-  href: "https://helpdesk.mybelanjawan.dev",
+  href: "https://helpdesk.mybelanjawan.gov.my",
 }, {
   title: "Status",
   href: "https://status.mybelanjawan.dev",
