@@ -1,59 +1,82 @@
-import { Book, HelpCircle, BarChart, Laptop, GraduationCap } from "lucide-react"
-import Link from "next/link"
-import Image from 'next/image'
+import {
+  Book,
+  HelpCircle,
+  BarChart,
+  Laptop,
+  GraduationCap,
+} from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "MyBelanjawan",
+  description:
+    "Aplikasi utama untuk merancang dan memantau belanjawan tahunan di peringkat Persekutuan",
+  alternates: {
+    canonical: "https://mybelanjawan.gov.my",
+  },
+};
 
 export default function Page() {
   const sites = [
     {
       title: "Aplikasi MyBelanjawan",
-      description: "Aplikasi utama untuk merancang dan memantau belanjawan tahunan di peringkat Persekutuan",
+      description:
+        "Aplikasi utama untuk merancang dan memantau belanjawan tahunan di peringkat Persekutuan",
       href: "https://app.mybelanjawan.gov.my",
       icon: Laptop,
-      imgSrc: "/ss-aplikasi.webp"
+      imgSrc: "/ss-aplikasi.webp",
     },
     {
       title: "Dokumentasi Sistem",
-      description: "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
+      description:
+        "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
       href: "https://docs.mybelanjawan.gov.my",
       icon: Book,
-      imgSrc: "/ss-dokumentasi.webp"
+      imgSrc: "/ss-dokumentasi.webp",
     },
     {
       title: "Video Panduan Pengguna",
-      description: "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
+      description:
+        "Panduan pengguna interaktif, yang berintegrasi sepenuhnya dengan aplikasi MyBelanjawan",
       href: "https://docs.mybelanjawan.gov.my/docs/video-panduan-pengguna",
       icon: GraduationCap,
-      imgSrc: "/ss-video.webp"
+      imgSrc: "/ss-video.webp",
     },
     {
       title: "Helpdesk",
-      description: "Wujudkan tiket untuk tindakan pasukan kami, mengikut tahap kritikal tiket anda",
+      description:
+        "Wujudkan tiket untuk tindakan pasukan kami, mengikut tahap kritikal tiket anda",
       href: "https://helpdesk.mybelanjawan.gov.my",
       icon: HelpCircle,
-      imgSrc: "/ss-helpdesk.webp"
+      imgSrc: "/ss-helpdesk.webp",
     },
     {
       title: "Status Sistem",
-      description: "Status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden bagi 90 hari terkini",
+      description:
+        "Status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden bagi 90 hari terkini",
       href: "https://status.mybelanjawan.dev",
       icon: BarChart,
-      imgSrc: "/ss-status.webp"
+      imgSrc: "/ss-status.webp",
     },
     {
       title: "Portal Latihan",
-      description: "Jadual dan aturcara ToT MyBelanjawan, serta pautan untuk muat turun dokumen latihan",
+      description:
+        "Jadual dan aturcara ToT MyBelanjawan, serta pautan untuk muat turun dokumen latihan",
       href: "https://training.mybelanjawan.dev",
       icon: GraduationCap,
-      imgSrc: "/ss-portal-latihan.webp"
+      imgSrc: "/ss-portal-latihan.webp",
     },
     {
       title: "Buku Belanjawan 2025",
-      description: "Salinan digital rasmi bagi Belanjawan 2025 yang telah dibentangkan dan diluluskan di Parlimen",
+      description:
+        "Salinan digital rasmi bagi Belanjawan 2025 yang telah dibentangkan dan diluluskan di Parlimen",
       href: "https://belanjawan.mof.gov.my/ms/perbelanjaan",
       icon: GraduationCap,
-      imgSrc: "/ss-buku-belanjawan.webp"
-    }
-  ]
+      imgSrc: "/ss-buku-belanjawan.webp",
+    },
+  ];
 
   return (
     <div className="min-h-dvh bg-white font-sans">
@@ -63,14 +86,16 @@ export default function Page() {
             Selamat Datang ke Sistem MyBelanjawan
           </h1>
         </div>
-        
+
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {sites.map((site, index) => (
-            <Link 
+            <Link
               key={site.href}
               href={site.href}
               className={`block md:max-w-[500px] p-2 h-full cursor-pointer no-underline ${
-                index === sites.length - 1 && sites.length % 3 === 1 ? 'lg:col-start-2' : ''
+                index === sites.length - 1 && sites.length % 3 === 1
+                  ? "lg:col-start-2"
+                  : ""
               }`}
               aria-label={`Link to ${site.title}`}
               target="_blank"
@@ -96,7 +121,9 @@ export default function Page() {
                   <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
                     {site.title}
                   </h2>
-                  <p className="prose mb-3 max-w-none text-gray-500">{site.description}</p>
+                  <p className="prose mb-3 max-w-none text-gray-500">
+                    {site.description}
+                  </p>
                   <p className="text-sm font-mono text-gray-400">
                     {new URL(site.href).host}
                   </p>
@@ -107,5 +134,5 @@ export default function Page() {
         </div>
       </main>
     </div>
-  )
+  );
 }
