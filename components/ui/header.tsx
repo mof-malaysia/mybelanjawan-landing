@@ -1,4 +1,5 @@
-import Image from 'next/image';
+import Image from "next/image";
+import At from "./at";
 
 const Header: React.FC = () => {
   return (
@@ -6,15 +7,18 @@ const Header: React.FC = () => {
       <div className="container relative mx-auto flex gap-4 items-center justify-between">
         <div className="flex gap-4 items-center">
           <div className="flex w-max cursor-pointer gap-4">
-            <div className="flex w-8 items-center justify-center">
+            <At
+              href="/"
+              className="flex items-center gap-4 justify-center container mx-auto"
+            >
               <Image
                 src="/jata_logo.png"
-                width={48}
-                height={36}
+                width={36}
+                height={27}
                 alt="datagovmy_logo"
               />
-            </div>
-            <h3>MyBelanjawan</h3>
+              <h3>MyBelanjawan</h3>
+            </At>
           </div>
         </div>
       </div>
@@ -22,4 +26,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header; 
+export default Header;
