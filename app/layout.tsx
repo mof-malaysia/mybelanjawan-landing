@@ -5,6 +5,7 @@ import Head from "next/head";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 import At from "@/components/ui/at";
+import NoticeBanner from "@/components/ui/notice-banner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -62,7 +63,31 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <Header />
-          <div className="container">{children}</div>
+          <div className="container">
+            <NoticeBanner>
+              <div className="grid gap-2 py-2 px-6 justify-between text-blue-600 font-semibold">
+                <div className="flex gap-2">
+                  <p>1.</p>
+                  <p>
+                    Sistem MyBelanjawan telah dibuka untuk penyediaan Anggaran Perbelanjaaan Persekutuan Tahun 2026 bermula 5 Mei 2025. Tarikh akhir sign-off Pegawai Pengawal adalah pada 31 Mei 2025.
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p>2.</p>
+                  <p>
+                    Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p>3.</p>
+                  <p>
+                    {`Sesi "Anda Tanya, Kami Jawab" Siri 1 akan diadakan pada 8 Mei 2025, 10.30 - 11.30 pagi melalui aplikasi zoom.`}
+                  </p>
+                </div>
+              </div>
+            </NoticeBanner>
+            {children}
+          </div>
           <Footer title="Kementerian Kewangan Malaysia">
             <div className="grid gap-3 w-[25em]">
               {footerLinks.map((link) => (
