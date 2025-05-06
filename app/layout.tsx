@@ -64,8 +64,8 @@ export default function RootLayout({
         >
           <Header />
           <div className="container">
-            <NoticeBanner>
-              <div className="grid gap-2 py-2 px-6 justify-between text-blue-600 font-semibold">
+            <NoticeBanner title="Pengumuman">
+              <div className="grid gap-2 py-2 px-6 justify-between">
                 <div className="flex gap-2">
                   <p>1.</p>
                   <p>
