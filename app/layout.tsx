@@ -81,7 +81,7 @@ export default function RootLayout({
                 <div className="flex gap-2">
                   <p>3.</p>
                   <p>
-                    Sesi "Anda Tanya, Kami Jawab" Siri 2 akan diadakan pada <b>15 Mei 2025, 10.30 - 11.30 pagi</b> melalui aplikasi zoom.
+                    {`Sesi "Anda Tanya, Kami Jawab" Siri 2 akan diadakan pada `}<b>15 Mei 2025, 10.30 - 11.30 pagi</b>{` melalui aplikasi zoom.`}
                   </p>
                 </div>
               </div>
