@@ -52,19 +52,19 @@ export default function Page() {
       icon: HelpCircle,
       imgSrc: "/ss-helpdesk.webp",
     },
-    {
-      title: "Status Sistem",
-      description:
-        "Status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden bagi 90 hari terkini",
-      href: "https://status.mybelanjawan.dev",
-      icon: BarChart,
-      imgSrc: "/ss-status.webp",
-    },
+    // {
+    //   title: "Status Sistem",
+    //   description:
+    //     "Status teknikal sistem MyBelanjawan, termasuk Uptime dan log insiden bagi 90 hari terkini",
+    //   href: "https://status.mybelanjawan.dev",
+    //   icon: BarChart,
+    //   imgSrc: "/ss-status.webp",
+    // },
     {
       title: "Portal Latihan",
       description:
         "Jadual dan aturcara ToT MyBelanjawan, serta pautan untuk muat turun dokumen latihan",
-      href: "https://training.mybelanjawan.dev",
+      href: "https://training.mybelanjawan.gov.my",
       icon: GraduationCap,
       imgSrc: "/ss-portal-latihan.webp",
     },
