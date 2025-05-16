@@ -1,7 +1,6 @@
 import {
   Book,
   HelpCircle,
-  BarChart,
   Laptop,
   GraduationCap,
 } from "lucide-react";
