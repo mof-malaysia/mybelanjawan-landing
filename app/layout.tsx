@@ -78,12 +78,6 @@ export default function RootLayout({
                     Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.
                   </p>
                 </div>
-                <div className="flex gap-2">
-                  <p>3.</p>
-                  <p>
-                    {`Sesi "Anda Tanya, Kami Jawab" Siri 3 akan diadakan pada `}<b>22 Mei 2025, 10.30 - 11.30 pagi</b>{` melalui aplikasi zoom.`}
-                  </p>
-                </div>
               </div>
             </NoticeBanner>
             {children}
