@@ -69,13 +69,13 @@ export default function RootLayout({
                 <div className="flex gap-2">
                   <p>1.</p>
                   <p>
-                    Sistem MyBelanjawan telah dibuka untuk penyediaan Anggaran Perbelanjaaan Persekutuan Tahun 2026 bermula 5 Mei 2025. Tarikh akhir sign-off Pegawai Pengawal adalah pada 31 Mei 2025.
+                    Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <p>2.</p>
                   <p>
-                    Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.
+                    Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <strong>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Kedua 2025 </strong> adalah pada <strong><u>31 Julai 2025</u></strong>.
                   </p>
                 </div>
               </div>
