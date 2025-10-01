@@ -75,7 +75,7 @@ export default function RootLayout({
                 <div className="flex gap-2">
                   <p>2.</p>
                   <p>
-                    Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <strong>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Kedua 2025 </strong> adalah pada <strong><u>31 Julai 2025</u></strong>.
+                    Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <strong>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Ketiga 2025 </strong> adalah pada <strong><u>31 Oktober 2025</u></strong>.
                   </p>
                 </div>
               </div>
