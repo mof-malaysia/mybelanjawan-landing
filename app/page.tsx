@@ -68,12 +68,12 @@ export default function Page() {
       imgSrc: "/ss-portal-latihan.webp",
     },
     {
-      title: "Buku Belanjawan 2025",
+      title: "Buku Belanjawan 2026",
       description:
-        "Salinan digital rasmi bagi Belanjawan 2025 yang telah dibentangkan dan diluluskan di Parlimen",
+        "Salinan digital rasmi bagi Belanjawan 2026 yang telah dibentangkan di Parlimen",
       href: "https://belanjawan.mof.gov.my/ms/perbelanjaan",
       icon: GraduationCap,
-      imgSrc: "/ss-buku-belanjawan.webp",
+      imgSrc: "/ss-buku-belanjawan-2026.webp",
     },
   ];
 
