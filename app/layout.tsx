@@ -45,6 +45,14 @@ const footerLinks = [
   },
 ];
 
+const notices = [
+  <>Gangguan capaian Sistem MyBelanjawan bagi kerja-kerja penyelenggaraan tahunan (elektrik) pada <b>20 Disember 2025</b> bermula <b>9.00 pagi - 12 malam</b>.</>,
+  <>Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.</>,
+  <>
+    Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <b>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Ketiga 2025 </b> adalah pada <b><u>31 Oktober 2025</u></b>.
+  </>
+];
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -66,18 +74,14 @@ export default function RootLayout({
           <div className="container">
             <NoticeBanner title="Pengumuman">
               <div className="grid gap-2 py-2 px-6 justify-between">
-                <div className="flex gap-2">
-                  <p>1.</p>
-                  <p>
-                    Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <p>2.</p>
-                  <p>
-                    Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <strong>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Ketiga 2025 </strong> adalah pada <strong><u>31 Oktober 2025</u></strong>.
-                  </p>
-                </div>
+                {notices.map((notice, idx) => (
+                  <div key={idx} className="flex gap-2">
+                    <p>{idx+1}.</p>
+                    <p>
+                      {notice}
+                    </p>
+                  </div>
+                ))}
               </div>
             </NoticeBanner>
             {children}
