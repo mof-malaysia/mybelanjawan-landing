@@ -46,7 +46,6 @@ const footerLinks = [
 ];
 
 const notices = [
-  <>Gangguan capaian Sistem MyBelanjawan bagi kerja-kerja penyelenggaraan tahunan (elektrik) pada <b>20 Disember 2025</b> bermula <b>9.00 pagi - 12 malam</b>.</>,
   <>Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.</>,
   <>
     Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <b>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Ketiga 2025 </b> adalah pada <b><u>31 Oktober 2025</u></b>.
