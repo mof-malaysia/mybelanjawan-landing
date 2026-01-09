@@ -46,9 +46,8 @@ const footerLinks = [
 ];
 
 const notices = [
-  <>Fungsi Pelaporan Prestasi Belanjawan 2025 telah tersedia untuk pengemaskinian oleh semua Kementerian.</>,
   <>
-    Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <b>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Ketiga 2025 </b> adalah pada <b><u>31 Oktober 2025</u></b>.
+    Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <b>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Keempat 2025</b> adalah pada <b><u>31 Januari 2026</u></b>.
   </>
 ];
 
