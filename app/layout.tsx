@@ -48,6 +48,9 @@ const footerLinks = [
 const notices = [
   <>
     Selaras dengan peraturan yang ditetapkan dalam Pekeliling Perbendaharaan (PB) 1.2 Anggaran Perbelanjaan Persekutuan 2025, <b>tarikh akhir pelaporan prestasi KPI Outcome dan PI Output bagi Suku Keempat 2025</b> adalah pada <b><u>31 Januari 2026</u></b>.
+  </>,
+  <>
+    Pengguna Sistem MyBelanjawan di peringkat Kementerian/MP adalah dipelawa untuk menghadiri Latihan Pengguna Sistem MyBelanjawan 2026 dengan melengkapkan maklumat di pautan <a href="https://forms.gle/LaqaUPmdzFYZSdHB6" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800">https://forms.gle/LaqaUPmdzFYZSdHB6</a>. Tarikh akhir pendaftaran adalah pada <b><u>23 Januari 2026 (Jumaat)</u></b>.
   </>
 ];
 
